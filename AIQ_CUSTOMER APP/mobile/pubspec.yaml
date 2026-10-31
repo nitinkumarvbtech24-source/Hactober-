@@ -1,0 +1,75 @@
+name: takemytrash
+description: TakeMyTrash User App — Book, track, and manage trash pickups
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP Client
+  dio: ^5.7.0
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Navigation
+  go_router: ^14.6.1
+  
+  # Fonts
+  google_fonts: ^6.2.1
+  
+  # Secure Storage (JWT tokens)
+  flutter_secure_storage: ^9.2.2
+  
+  # Socket.io
+  socket_io_client: ^3.0.2
+  # Maps (OpenStreetMap)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  
+  # Location
+  geolocator: ^13.0.2
+  
+  # Shared Preferences
+  shared_preferences: ^2.3.3
+  
+  # Image Picker
+  image_picker: ^1.1.2
+  
+  # URL Launcher (for phone calls)
+  url_launcher: ^6.3.1
+  
+  # Animations
+  flutter_animate: ^4.5.0
+  
+  # Shimmer loading
+  shimmer: ^3.0.0
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+  
+  # HTTP (for Razorpay webhook)
+  http: ^1.2.2
+
+  # Advanced UI Masterpiece Packages
+  flutter_slidable: ^3.1.1
+  lottie: ^3.1.2
+  sensors_plus: ^7.0.0
+  camera: 0.12.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/

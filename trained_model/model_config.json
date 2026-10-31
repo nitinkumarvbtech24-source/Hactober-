@@ -1,0 +1,21 @@
+{
+  "model_name": "trash_yolov8n",
+  "task": "detect",
+  "base_architecture": "YOLOv8n",
+  "framework": "Ultralytics YOLOv8",
+  "classes": {
+    "0": "trash"
+  },
+  "num_classes": 1,
+  "input_size": [640, 640],
+  "color_format": "RGB",
+  "recommended_confidence_threshold": 0.25,
+  "recommended_iou_threshold": 0.45,
+  "performance": {
+    "precision": 0.7187,
+    "recall": 0.3556,
+    "map50": 0.4713,
+    "map50_95": 0.1839,
+    "average_latency_gpu_ms": 9.7
+  }
+}

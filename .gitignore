@@ -1,0 +1,47 @@
+# Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+
+# Android
+**/.gradle/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+*.apk
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.pytest_cache/
+**/venv/
+**/env/
+**/.venv/
+
+# Large Model weights exceeding GitHub's 100MB file limit
+*.onnx
+Garbage_ai_model_v7/weights/*.onnx
+
+# Transient runtime snapshots (exclude bulk test captures, keep sample images)
+**/snapshots/analysed/
+**/snapshots/training/
+trained_model/snapshots/
+!**/snapshots/sample.jpg
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary & Log files
+*.log

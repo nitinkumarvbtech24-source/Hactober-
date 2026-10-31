@@ -1,0 +1,12 @@
+# Garbage_ai_model_v6 Dataset Configuration
+path: e:/nitin/models/datasets
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 1
+
+# Class names (Strictly trash detection only)
+names:
+  0: trash
